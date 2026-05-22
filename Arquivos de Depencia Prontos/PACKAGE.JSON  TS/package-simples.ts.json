@@ -1,0 +1,20 @@
+{
+    "name": "node-simples-ts",
+    "version": "1.0.0",
+    "description": "API Node.js com TypeScript - Simples",
+    "main": "dist/server.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "dev": "ts-node-dev src/server.ts"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "typescript": "^5.2.2",
+        "@types/node": "^20.8.0",
+        "@types/express": "^4.17.20",
+        "ts-node-dev": "^2.0.0"
+    }
+}
