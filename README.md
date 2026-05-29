@@ -24,22 +24,6 @@
 
 ---
 
-## 👁️ Veja antes de clonar
-
-### Estrutura MVC – JavaScript
-<img width="193" height="334" alt="Pastas MVC para JS: controllers, models, routes, services" src="https://github.com/user-attachments/assets/a81b7be3-dcb2-4ce2-b701-627f855e3328" />
-
-### Estrutura MVC – TypeScript
-<img width="189" height="356" alt="Pastas MVC para TS com tipagens" src="https://github.com/user-attachments/assets/c8ba417d-8243-4a5d-a437-fc4d87d20535" />
-
-### Todas as 7 arquiteturas disponíveis
-<img width="202" height="179" alt="Visão geral das 7 estruturas de pastas" src="https://github.com/user-attachments/assets/9906ef13-784e-4608-9ced-3a9f81094964" />
-
-### Frontend – estrutura organizada
-<img width="197" height="588" alt="Pastas de frontend: assets, components, pages, services" src="https://github.com/user-attachments/assets/69ad0f77-2123-492d-bb37-af44a81b6080" />
-
----
-
 ## 📦 Projetos do ecossistema
 
 | Projeto | O que tem | Stack | Link |
