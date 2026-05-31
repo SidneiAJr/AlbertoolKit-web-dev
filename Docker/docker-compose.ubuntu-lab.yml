@@ -1,0 +1,18 @@
+services:
+  ubuntu-lab:
+    build:
+      context: .
+      dockerfile: Dockerfile.ubuntu
+    container_name: ubuntu-lab
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./workspace:/workspace
+    ports:
+      - "8080:8080"   # Para testes web
+      - "3000:3000"   # Para Node
+    networks:
+      - lab-network
+
+networks:
+  lab-network:
