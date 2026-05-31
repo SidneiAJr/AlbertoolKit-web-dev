@@ -1,0 +1,13 @@
+services:
+  ubuntu-dev:
+    image: ubuntu:22.04
+    container_name: ubuntu-lab
+    stdin_open: true   # -i
+    tty: true          # -t
+    volumes:
+      - ./workspace:/workspace
+      - ./scripts:/scripts
+    working_dir: /workspace
+    ports:
+      - "22:22"        # SSH (opcional)
+    command: tail -f /dev/null  # mantém rodando
