@@ -1,0 +1,11 @@
+.Texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filha{
+    font-size: 20px;
+    font-weight: bold;
+}

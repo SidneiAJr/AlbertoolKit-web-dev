@@ -1,0 +1,13 @@
+/* src/Pages/CardPreto.css */
+.preto {
+  background: linear-gradient(135deg, #333333 0%, #111111 100%);
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+.preto:hover { transform: translateY(-5px); }
