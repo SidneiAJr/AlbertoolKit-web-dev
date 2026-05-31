@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/ios/50/dashboard-layout--v1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1>📊 Dashboard</h1>
+        </div>
+        <div class="user-info">
+            <span>Olá, Usuário</span>
+            <div class="avatar">AD</div>
+        </div>
+    </header>
+
+    <!-- Stats Cards -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon">📦</div>
+            <div class="stat-info">
+                <h3>Total de Itens</h3>
+                <p>1,234</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">⚠️</div>
+            <div class="stat-info">
+                <h3>Alertas Ativos</h3>
+                <p>7</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">💰</div>
+            <div class="stat-info">
+                <h3>Receita</h3>
+                <p>R$ 45.678</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon">👥</div>
+            <div class="stat-info">
+                <h3>Usuários</h3>
+                <p>342</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabela de Dados -->
+    <div class="table-container">
+        <h2>📋 Últimos Registros</h2>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Status</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Item A</td>
+                        <td><span class="status atencao">Pendente</span></td>
+                        <td>10/05/2026</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Item B</td>
+                        <td><span class="status perigo">Atrasado</span></td>
+                        <td>09/05/2026</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>Item C</td>
+                        <td><span class="status normal">Concluído</span></td>
+                        <td>08/05/2026</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Item D</td>
+                        <td><span class="status normal">Concluído</span></td>
+                        <td>07/05/2026</td>
+                    </tr>
+                    <tr>
+                        <td>005</td>
+                        <td>Item E</td>
+                        <td><span class="status atencao">Pendente</span></td>
+                        <td>06/05/2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
