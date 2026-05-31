@@ -1,0 +1,141 @@
+# Dockerfile.alpine - Produção completa
+FROM alpine:3.19
+
+# Instalação silenciosa
+ENV DEBIAN_FRONTEND=noninteractive
+
+# ============================================
+# FERRAMENTAS BÁSICAS
+# ============================================
+RUN apk add --no-cache \
+    bash \
+    curl \
+    wget \
+    git \
+    vim \
+    nano \
+    htop \
+    tree \
+    jq \
+    yq \
+    unzip \
+    zip \
+    tar \
+    gzip \
+    make \
+    gcc \
+    g++ \
+    musl-dev \
+    openssl \
+    openssl-dev \
+    ca-certificates \
+    tzdata \
+    shadow
+
+# ============================================
+# NODE.JS (versão LTS atual)
+# ============================================
+RUN apk add --no-cache nodejs npm
+
+# ============================================
+# PYTHON (3.x + pip)
+# ============================================
+RUN apk add --no-cache python3 py3-pip python3-dev
+RUN ln -sf python3 /usr/bin/python
+
+# ============================================
+# JAVA (OpenJDK 17)
+# ============================================
+RUN apk add --no-cache openjdk17-jdk
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+
+# ============================================
+# PHP (última versão estável)
+# ============================================
+RUN apk add --no-cache php83 php83-common php83-cli php83-fpm php83-mysqli php83-pdo php83-pdo_mysql php83-pdo_pgsql php83-curl php83-json php83-openssl php83-mbstring php83-xml php83-zip php83-phar
+
+# ============================================
+# GO (última versão)
+# ============================================
+RUN apk add --no-cache go
+
+# ============================================
+# RUBY
+# ============================================
+RUN apk add --no-cache ruby ruby-dev
+
+# ============================================
+# BANCOS DE DADOS (clientes)
+# ============================================
+RUN apk add --no-cache \
+    mysql-client \
+    postgresql16-client \
+    redis \
+    mongodb-tools \
+    sqlite \
+    sqlite-dev
+
+# ============================================
+# FERRAMENTAS DE REDE E SEGURANÇA
+# ============================================
+RUN apk add --no-cache \
+    nmap \
+    net-tools \
+    iputils \
+    bind-tools \
+    curl \
+    wget \
+    openssh-client
+
+# ============================================
+# UTILITÁRIOS DE DESENVOLVIMENTO
+# ============================================
+RUN apk add --no-cache \
+    docker \
+    docker-compose \
+    kubectl \
+    terraform
+
+# ============================================
+# PM2 (gerenciador de processos Node)
+# ============================================
+RUN npm install -g pm2 nodemon
+
+# ============================================
+# PIP (pacotes Python úteis)
+# ============================================
+RUN pip3 install --no-cache-dir \
+    flask \
+    fastapi \
+    uvicorn \
+    requests \
+    pandas \
+    numpy \
+    django \
+    psycopg2-binary \
+    mysql-connector-python
+
+# ============================================
+# COMPOSER (PHP)
+# ============================================
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+# ============================================
+# CONFIGURAÇÕES FINAIS
+# ============================================
+WORKDIR /app
+
+# Cria usuário não-root (boa prática)
+RUN useradd -m -s /bin/bash appuser && chown -R appuser:appuser /app
+USER appuser
+
+# Script de boas-vindas
+RUN echo "echo '🚀 Alpine Production Container'" >> ~/.bashrc
+RUN echo "echo '📦 Node: $(node -v) | NPM: $(npm -v)'" >> ~/.bashrc
+RUN echo "echo '🐍 Python: $(python --version)'" >> ~/.bashrc
+RUN echo "echo '☕ Java: $(java -version 2>&1 | head -n1)'" >> ~/.bashrc
+RUN echo "echo '🐘 PHP: $(php -v | head -n1)'" >> ~/.bashrc
+RUN echo "echo '🐹 Go: $(go version)'" >> ~/.bashrc
+RUN echo "echo '💎 Ruby: $(ruby -v)'" >> ~/.bashrc
+
+CMD ["/bin/bash"]
