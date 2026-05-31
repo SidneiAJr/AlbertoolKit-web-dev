@@ -1,0 +1,20 @@
+# docker-compose.prod.yml
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.alpine
+    container_name: alpine-prod
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./app:/app
+      - ./data:/data
+    ports:
+      - "3000:3000"   # Node
+      - "5000:5000"   # Python
+      - "8000:8000"   # PHP
+      - "8080:8080"   # Java
+    environment:
+      NODE_ENV: production
+    restart: unless-stopped
