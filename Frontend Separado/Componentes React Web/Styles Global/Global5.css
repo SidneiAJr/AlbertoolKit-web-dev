@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #00b4db, #0083b0);
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #e43a15, #e65245);
+}
+
+.bg-gradient-sunset { background: linear-gradient(135deg, #ff7e5f, #feb47b); }
+.bg-gradient-night { background: linear-gradient(135deg, #1e3c72, #2a5298); }
+.bg-gradient-ocean { background: linear-gradient(135deg, #00b4db, #0083b0); }
+.bg-gradient-purple { background: linear-gradient(135deg, #667eea, #764ba2); }
+.bg-gradient-green { background: linear-gradient(135deg, #11998e, #38ef7d); }
+.bg-gradient-gold { background: linear-gradient(135deg, #f7971e, #ffd200); }
