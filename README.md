@@ -69,6 +69,37 @@ npm start
 > ⚠️ Domino MVC na prática. As outras 6 foram criadas seguindo documentação e referências técnicas — os esqueletos estão vazios por design. Se perceber que falta algum arquivo ou alguma pasta está fora do padrão, [abra uma Issue](https://github.com/SidneiAJr). Vou corrigir.
 
 ---
+## 📱 React Native - Componentes disponíveis
+
+| Categoria | Componentes |
+|-----------|-------------|
+| **UI Básicos** | Avatar, Badge, Button, Card, Input, Modal, Spinner |
+| **Feedback** | Toast, Skeleton, ProgressBar, RatingStars, EmptyState, LoadingScreen |
+| **Formulário** | Checkbox, Switch, DateTimePicker, Select |
+| **Navegação** | Tabs, Header, BottomSheet, Pagination |
+| **Dados** | Chart, SearchBar, FloatingButton |
+| **Telas** | Login, Register, Profile, Dashboard, Onboarding, TwoFactor, Details |
+
+---
+
+## ⚛️ React Web - Hooks disponíveis
+
+| Hook | O que faz |
+|------|-----------|
+| `useAuth` | Autenticação com JWT |
+| `useFetch` | Requisições HTTP genéricas |
+| `useDebounce` | Atraso para busca |
+| `useLocalStorage` | Persistência local |
+| `useMediaQuery` | Responsividade |
+| `useWebSocket` | Comunicação em tempo real |
+
+---
+
+## ⭐ Star no GitHub
+
+Se isso te ajudou a economizar tempo, considere deixar uma ⭐ no repositório!
+
+---
 
 ## 🙏 De dev pra dev
 
