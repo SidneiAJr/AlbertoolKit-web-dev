@@ -1,0 +1,30 @@
+// package-serverless.ts.json
+{
+  "name": "serverless-lambda-ts",
+  "version": "1.0.0",
+  "description": "AWS Lambda function em TypeScript",
+  "main": "dist/handler.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/handler.ts",
+    "deploy": "npm run build && serverless deploy",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1470.0",
+    "@types/aws-lambda": "^8.10.119",
+    "@middy/core": "^4.7.0",
+    "@middy/http-json-body-parser": "^4.7.0",
+    "@middy/http-error-handler": "^4.7.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.0",
+    "ts-node-dev": "^2.0.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.5",
+    "serverless": "^3.38.0",
+    "serverless-offline": "^13.3.0"
+  }
+}
