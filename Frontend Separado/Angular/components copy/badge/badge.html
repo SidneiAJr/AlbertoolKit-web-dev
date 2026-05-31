@@ -1,0 +1,9 @@
+<!-- components/badge/badge.html -->
+<div class="badge-container">
+  <ng-content></ng-content>
+  @if (count > 0) {
+    <span class="badge" [style.backgroundColor]="color">
+      {{ displayCount }}
+    </span>
+  }
+</div>

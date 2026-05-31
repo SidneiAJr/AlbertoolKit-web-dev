@@ -1,0 +1,7 @@
+<p>progress-bar works!</p>
+<!-- progress-bar.component.html -->
+<div class="progress-container">
+  <div class="progress-bar" [style.width.%]="percent">
+    <span class="progress-label" *ngIf="showLabel">{{ percent }}%</span>
+  </div>
+</div>
