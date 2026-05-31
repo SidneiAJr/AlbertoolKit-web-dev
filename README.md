@@ -10,6 +10,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original-wordmark.svg" />          
 </p>
 
 ---
@@ -32,8 +34,6 @@
 | **Constellation Backend Only** | 7 arquiteturas × 4 linguagens = 28 esqueletos | JS, TS, PHP, Java | [GitHub](https://github.com/SidneiAJr/Constellation-Backend-Only) |
 | **Esqueletos Backend Enterprise** | Só MVC tradicional — menos pastas, mais direto | Java, Node, PHP, TS | [GitHub](https://github.com/SidneiAJr/Esqueletos_backend_enteprise) |
 | **Nosso Frontend** | Estrutura CSS/JS em dois níveis (Hard / Enterprise) | HTML, CSS, JS | [GitHub](https://github.com/SidneiAJr/Nosso-Frontend) |
-
-> **Constellation vs Enterprise?** Use Constellation para explorar arquiteturas (DDD, Hexagonal, Clean...). Use Enterprise se só quer MVC rápido sem excesso de pastas. Não sabe a diferença? Começa pelo Enterprise.
 
 ---
 
