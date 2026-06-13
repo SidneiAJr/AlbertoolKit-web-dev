@@ -1,0 +1,81 @@
+/* MenuTop.css */
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: linear-gradient(135deg, #061E29 0%, #1591DC 100%);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Efeito hover */
+.menu a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Efeito de linha embaixo ao passar o mouse */
+.menu a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.menu a:hover::after {
+  width: 80%;
+}
+
+/* Link ativo (página atual) */
+.menu a.ativo {
+  background-color: rgba(255, 255, 255, 0.25);
+  font-weight: bold;
+}
+
+/* Responsivo para celular */
+@media (max-width: 768px) {
+  .menu {
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 20px;
+  }
+  
+  .menu a {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+/* Responsivo para mobile pequeno */
+@media (max-width: 480px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 15px;
+  }
+  
+  .menu a {
+    width: 100%;
+    text-align: center;
+  }
+}
