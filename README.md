@@ -1,4 +1,4 @@
-# 🛠️ Albertool-DevKit | Backend & Frotend | Componentes React Native & React Web
+# 🛠️ Albertool-DevKit | Backend & Frontend | Componentes React Native & React Web
 
 *"Preguiça? Chama de eficiência."*
 
