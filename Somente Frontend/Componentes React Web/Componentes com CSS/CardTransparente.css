@@ -1,0 +1,69 @@
+.MainCard {
+    padding: 50px;
+}
+
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.Card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+button:hover,input:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+}
+
+.icone{
+    width: 20px;
+    height: 20px;
+}
+
+.loginicone{
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.loginicone:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 80px;
+    height: 80px;
+}
