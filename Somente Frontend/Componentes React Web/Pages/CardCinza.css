@@ -1,0 +1,13 @@
+/* src/Pages/CardCinza.css */
+.cinza {
+  background: linear-gradient(135deg, #9E9E9E 0%, #757575 100%);
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+.cinza:hover { transform: translateY(-5px); }
