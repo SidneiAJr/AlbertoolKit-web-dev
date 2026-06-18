@@ -1,0 +1,14 @@
+.texto1{
+    font-size: 50px;
+    color: blue;
+}
+
+.texto2{
+    font-size: 50px;
+    color: black;
+}
+
+.texto1:hover, .texto2:hover{
+text-shadow: #FFF 0px 0px 5px, #e60000 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
