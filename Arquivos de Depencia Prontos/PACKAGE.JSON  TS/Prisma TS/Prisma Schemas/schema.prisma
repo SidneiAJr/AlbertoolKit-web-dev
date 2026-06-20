@@ -1,0 +1,21 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// ===== EXEMPLO DE MODEL =====
+// Apague e crie os seus
+
+model User {
+  
+
+  @@map("users")
+}
+
+// DATABASE_URL="mysql://root:senha@localhost:3306/nome_do_banco"
