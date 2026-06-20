@@ -1,0 +1,23 @@
+source "https://rubygems.org"
+
+ruby "3.2.0"
+
+# WEB
+gem "rails", "~> 7.1.0"
+gem "puma", "~> 6.0"
+
+# BANCO
+gem "mysql2", "~> 0.5"
+gem "activerecord", "~> 7.1.0"
+
+# AUTH
+gem "bcrypt", "~> 3.1.7"
+gem "jwt", "~> 2.7"
+
+# CONFIG
+gem "dotenv-rails", "~> 2.8"
+
+group :development, :test do
+  gem "rspec-rails", "~> 6.1"
+  gem "byebug"
+end
