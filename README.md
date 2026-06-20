@@ -16,6 +16,19 @@
 
 ---
 
+> ## 🚫 USO PERMITIDO — VENDA PROIBIDA
+>
+> Este projeto é gratuito, open source e foi criado para ajudar a comunidade dev.
+>
+> ✅ Pode usar em projetos pessoais e comerciais  
+> ✅ Pode copiar, adaptar e modificar à vontade  
+> ✅ Pode compartilhar com outros devs  
+> ❌ **Não pode vender, revender ou cobrar por este conteúdo**  
+>
+> Feito de dev pra dev. Mantém assim. 🇧🇷
+
+---
+
 ## 📌 O que é isso?
 
 **Albertool-DevKit** é um ecossistema de esqueletos prontos para devs que cansaram de criar a mesma estrutura de pastas todo projeto, copiar `pom.xml` e `package.json` de projetos velhos, e perder 30 minutos configurando o básico antes de escrever uma linha de código.
@@ -69,7 +82,8 @@ npm start
 > ⚠️ Domino MVC na prática. As outras 6 foram criadas seguindo documentação e referências técnicas — os esqueletos estão vazios por design. Se perceber que falta algum arquivo ou alguma pasta está fora do padrão, [abra uma Issue](https://github.com/SidneiAJr). Vou corrigir.
 
 ---
-## 📱 React Native - Componentes disponíveis
+
+## 📱 React Native — Componentes disponíveis
 
 | Categoria | Componentes |
 |-----------|-------------|
@@ -82,7 +96,7 @@ npm start
 
 ---
 
-## ⚛️ React Web - Hooks disponíveis
+## ⚛️ React Web — Hooks disponíveis
 
 | Hook | O que faz |
 |------|-----------|
@@ -97,12 +111,11 @@ npm start
 
 ## ⭐ Star no GitHub
 
-Se isso te ajudou a economizar tempo, considere deixar uma ⭐ no repositório!
+Se isso te ajudou a economizar tempo, considera deixar uma ⭐ no repositório. É o único pagamento aceito aqui.
 
 ---
 
 ## 🙏 De dev pra dev
 
-Criado no Brasil 🇧🇷 por um dev preguiçoso (no bom sentido) que cansou de refazer estrutura.
-
-**Open source. MIT. Use à vontade. Só não vende.**
+Criado no Brasil 🇧🇷 por um dev preguiçoso (no bom sentido) que cansou de refazer estrutura.  
+**Open source. Gratuito. Para sempre.**
