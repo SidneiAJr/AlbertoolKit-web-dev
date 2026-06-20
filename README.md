@@ -1,4 +1,4 @@
-# 🛠️ Albertool-DevKit | Backend & Frontend | Componentes React Native & React Web
+# 🛠️ Albertool-DevKit
 
 *"Preguiça? Chama de eficiência."*
 
@@ -12,112 +12,65 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original-wordmark.svg" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original-wordmark.svg"  height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" height="40"/>          
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original-wordmark.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" height="40" />
 </p>
 
 ---
 
 > ## 🚫 USO PERMITIDO — VENDA PROIBIDA
 >
-> Este projeto é gratuito, open source e foi criado para ajudar a comunidade dev.
+> ✅ Pode usar em projetos pessoais e comerciais
+> ✅ Pode copiar, adaptar e modificar à vontade
+> ✅ Pode compartilhar com outros devs
+> ❌ Não pode vender, revender ou cobrar por este conteúdo
 >
-> ✅ Pode usar em projetos pessoais e comerciais  
-> ✅ Pode copiar, adaptar e modificar à vontade  
-> ✅ Pode compartilhar com outros devs  
-> ❌ **Não pode vender, revender ou cobrar por este conteúdo**  
->
-> Feito de dev pra dev. Mantém assim. 🇧🇷
+> Feito de dev pra dev. Mantém assim. 🇧🇧
 
 ---
 
 ## 📌 O que é isso?
 
-**Albertool-DevKit** é um ecossistema de esqueletos prontos para devs que cansaram de criar a mesma estrutura de pastas todo projeto, copiar `pom.xml` e `package.json` de projetos velhos, e perder 30 minutos configurando o básico antes de escrever uma linha de código.
+Estruturas prontas pra você não perder tempo configurando o básico antes de codar.
 
-**Você recebe a organização. A lógica é sua.**
-
-> Nenhum arquivo tem código de negócio — só estrutura e dependências. Você não perde tempo apagando exemplo que não quer.
+Você recebe a organização. A lógica é sua.
 
 ---
 
-## 📦 Projetos do ecossistema
+## 🖥️ Backend
 
-| Projeto | O que tem | Stack | Link |
-|---------|-----------|-------|------|
-| **NoMorePomPain** | 30+ arquivos de dependência prontos (`pom.xml`, `package.json`, `requirements.txt`) | Java, PHP, Node, Python | [GitHub](https://github.com/SidneiAJr/NoMorePomPain) |
-| **Constellation Backend Only** | 7 arquiteturas × 4 linguagens = 28 esqueletos | JS, TS, PHP, Java | [GitHub](https://github.com/SidneiAJr/Constellation-Backend-Only) |
-| **Esqueletos Backend Enterprise** | Só MVC tradicional — menos pastas, mais direto | Java, Node, PHP, TS | [GitHub](https://github.com/SidneiAJr/Esqueletos_backend_enteprise) |
-| **Nosso Frontend** | Estrutura CSS/JS em dois níveis (Hard / Enterprise) | HTML, CSS, JS | [GitHub](https://github.com/SidneiAJr/Nosso-Frontend) |
+Arquivos de dependência prontos por linguagem e nível — básico, avançado, completo e enterprise.
 
----
+| Linguagem | O que tem |
+|-----------|-----------|
+| **Node.js JS** | package.json por nível e especialidade |
+| **Node.js TS** | package.json por nível, Prisma, paths, Jest |
+| **Java** | pom.xml, application.properties, dev/prod/test |
+| **PHP** | composer.json, .env.example Laravel |
+| **Python** | requirements.txt, .env.example, config.py |
+| **C#** | .csproj, appsettings dev/prod/test |
+| **Go** | go.mod por nível |
+| **Ruby** | Gemfile por nível |
 
-## 🚀 Exemplo rápido
-
-```bash
-# Pegue um esqueleto MVC para Node.js
-git clone https://github.com/SidneiAJr/Constellation-Backend-Only.git
-cd Constellation-Backend-Only/js/mvc
-
-# Instale as dependências (já estão no package.json)
-npm install
-
-# Comece a codar dentro das pastas vazias
-# routes/ | controllers/ | models/ | services/
-npm start
-```
+Configs inclusas: tsconfig, ESLint, Prettier, Jest, Docker e Docker Compose.
 
 ---
 
-## 🧩 As 7 arquiteturas do Constellation
+## 🎨 Frontend
 
-| # | Arquitetura | Resumo |
-|---|-------------|--------|
-| 1 | **MVC** | Model-View-Controller — começa aqui se não conhece as outras |
-| 2 | **DDD** | Domain-Driven Design — regras de negócio no centro |
-| 3 | **Hexagonal** | Ports & Adapters — isola dependências externas |
-| 4 | **Clean Architecture** | Camadas concêntricas — mais rígida que hexagonal |
-| 5 | **Layered** | N-tier clássico: apresentação → negócio → dados |
-| 6 | **CQRS** | Separação de comandos e consultas |
-| 7 | **Repository Pattern** | Abstração de acesso a dados |
+Componentes prontos pra React Native e hooks pra React Web.
 
-> ⚠️ Domino MVC na prática. As outras 6 foram criadas seguindo documentação e referências técnicas — os esqueletos estão vazios por design. Se perceber que falta algum arquivo ou alguma pasta está fora do padrão, [abra uma Issue](https://github.com/SidneiAJr). Vou corrigir.
+| Plataforma | O que tem |
+|------------|-----------|
+| **React Native** | Avatar, Button, Card, Modal, Toast, Chart, Login, Dashboard, TwoFactor e mais |
+| **React Web** | useAuth, useFetch, useDebounce, useLocalStorage, useMediaQuery, useWebSocket |
 
 ---
 
-## 📱 React Native — Componentes disponíveis
+## ⭐ Se te ajudou
 
-| Categoria | Componentes |
-|-----------|-------------|
-| **UI Básicos** | Avatar, Badge, Button, Card, Input, Modal, Spinner |
-| **Feedback** | Toast, Skeleton, ProgressBar, RatingStars, EmptyState, LoadingScreen |
-| **Formulário** | Checkbox, Switch, DateTimePicker, Select |
-| **Navegação** | Tabs, Header, BottomSheet, Pagination |
-| **Dados** | Chart, SearchBar, FloatingButton |
-| **Telas** | Login, Register, Profile, Dashboard, Onboarding, TwoFactor, Details |
+Deixa uma estrela no repositório. É o único pagamento aceito aqui.
 
 ---
 
-## ⚛️ React Web — Hooks disponíveis
-
-| Hook | O que faz |
-|------|-----------|
-| `useAuth` | Autenticação com JWT |
-| `useFetch` | Requisições HTTP genéricas |
-| `useDebounce` | Atraso para busca |
-| `useLocalStorage` | Persistência local |
-| `useMediaQuery` | Responsividade |
-| `useWebSocket` | Comunicação em tempo real |
-
----
-
-## ⭐ Star no GitHub
-
-Se isso te ajudou a economizar tempo, considera deixar uma ⭐ no repositório. É o único pagamento aceito aqui.
-
----
-
-## 🙏 De dev pra dev
-
-Criado no Brasil 🇧🇷 por um dev preguiçoso (no bom sentido) que cansou de refazer estrutura.  
-**Open source. Gratuito. Para sempre.**
+**Criado no Brasil 🇧🇷 — Open source. Gratuito. Para sempre.**
