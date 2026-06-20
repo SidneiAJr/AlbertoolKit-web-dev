@@ -1,0 +1,43 @@
+source "https://rubygems.org"
+
+ruby "3.2.0"
+
+# WEB
+gem "rails", "~> 7.1.0"
+gem "puma", "~> 6.0"
+gem "rack-cors", "~> 2.0"
+
+# BANCO
+gem "mysql2", "~> 0.5"
+gem "pg", "~> 1.5"
+gem "activerecord", "~> 7.1.0"
+
+# REDIS
+gem "redis", "~> 5.0"
+gem "hiredis", "~> 0.6"
+
+# AUTH
+gem "bcrypt", "~> 3.1.7"
+gem "jwt", "~> 2.7"
+gem "devise", "~> 4.9"
+
+# CONFIG
+gem "dotenv-rails", "~> 2.8"
+gem "config", "~> 5.3"
+
+# SERIALIZAÇÃO
+gem "blueprinter", "~> 1.0"
+gem "oj", "~> 3.16"
+
+# VALIDAÇÃO
+gem "dry-validation", "~> 1.10"
+
+# LOGS
+gem "lograge", "~> 0.14"
+
+group :development, :test do
+  gem "rspec-rails", "~> 6.1"
+  gem "factory_bot_rails", "~> 6.4"
+  gem "faker", "~> 3.2"
+  gem "byebug"
+end
