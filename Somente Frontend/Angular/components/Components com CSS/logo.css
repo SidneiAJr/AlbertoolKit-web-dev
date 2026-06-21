@@ -1,0 +1,20 @@
+img {
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    object-fit: contain; /* 👈 Mantém a proporção da imagem */
+    padding: 20px; /* 👈 Dá respiro interno */
+}
+
+img:hover{
+    box-shadow: 
+        0 0 20px rgba(100, 100, 255, 0.8),
+        0 0 60px rgba(100, 100, 255, 0.4),
+        0 0 100px rgba(100, 100, 255, 0.2),
+        rgba(0, 0, 0, 0.25) 0px 54px 55px;
+    border: 2px solid rgba(100, 100, 255, 0.6);
+}

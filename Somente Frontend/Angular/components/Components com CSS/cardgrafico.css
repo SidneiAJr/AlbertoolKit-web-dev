@@ -1,0 +1,53 @@
+.Container-main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Container {
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 
+        0 25px 50px rgba(0, 0, 0, 0.3),
+        inset 0 0 30px rgba(255, 255, 255, 0.05);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.Container:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 
+        0 35px 60px rgba(0, 0, 0, 0.4),
+        0 0 60px rgba(100, 200, 255, 0.1),
+        inset 0 0 30px rgba(255, 255, 255, 0.08);
+    border-color: rgba(100, 200, 255, 0.3);
+}
+
+.Container-Texto {
+    color: #ffffff;
+    text-align: center;
+}
+
+.Container-Texto h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #00ffcc, #7b2ffc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.Container-Texto p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
