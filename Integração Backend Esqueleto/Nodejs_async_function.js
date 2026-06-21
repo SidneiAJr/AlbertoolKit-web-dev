@@ -1,4 +1,4 @@
-const api = "localhost:3000" // Backend Nodejs
+const api = "localhost:3000" // Backend Nodejs TS ou Js
 
 async function login() {
     
