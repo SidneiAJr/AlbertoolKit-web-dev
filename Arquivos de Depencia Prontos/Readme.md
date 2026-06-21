@@ -19,6 +19,7 @@
 | **Go** | Go | `go.mod` |
 | **csproj** | C# / .NET | `.csproj` + `appsettings.json` |
 | **Env's** | Todas | `.env.example` por linguagem |
+| **Docker** | Todas | Dockerfiles + Docker Compose prontos |
 | **Documentacao Depencia** | Todas | Docs explicando cada dependência |
 
 ---
@@ -132,6 +133,14 @@ Arquivos de Dependencia Prontos/
 │   ├── .env.example.go
 │   └── .env.example.csharp
 │
+├── Docker/
+│   ├── Dockerfile.alpine
+│   ├── Dockerfile.ubuntu
+│   ├── docker-compose.yml
+│   ├── docker-compose.prod.yml
+│   ├── docker-compose.ubuntu.yml
+│   └── docker-compose.mysql.yml
+│
 └── Documentacao Depencia/
 ```
 
@@ -182,6 +191,32 @@ O TS tem pacotes extras para casos de uso específicos:
 | `package-cli.ts.json` | Ferramentas de linha de comando |
 | `package-enterprise-prisma.json` | Enterprise com Prisma ORM |
 | `package-enterprise-v3.ts.json` | Stack enterprise completa v3 |
+
+---
+
+## 🐳 Docker
+
+Ambientes prontos pra subir com um comando:
+
+| Arquivo | Descrição |
+|---------|-----------|
+| `Dockerfile.alpine` | Imagem de produção com Node, Python, Java, PHP, Go e Ruby |
+| `Dockerfile.ubuntu` | Imagem de lab/dev com ferramentas básicas |
+| `docker-compose.yml` | Stack completa: backend + MySQL + PostgreSQL + MongoDB + Redis + Nginx |
+| `docker-compose.prod.yml` | Compose de produção usando a imagem Alpine |
+| `docker-compose.ubuntu.yml` | Ambiente de lab com Ubuntu |
+| `docker-compose.mysql.yml` | Só o MySQL, pra projetos simples |
+
+```bash
+# Subir a stack completa
+docker-compose up -d
+
+# Subir só o banco
+docker-compose -f docker-compose.mysql.yml up -d
+
+# Produção com Alpine
+docker-compose -f docker-compose.prod.yml up -d
+```
 
 ---
 
