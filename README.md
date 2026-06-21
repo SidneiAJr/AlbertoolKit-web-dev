@@ -1,5 +1,5 @@
 # 🛠️ Albertool-DevKit
-*"Preguiça? Chama de eficiência."*
+*"Lazy? Call it efficiency."*
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" height="40" />
@@ -17,64 +17,64 @@
 
 ---
 
-> ## 🚫 USO PERMITIDO — VENDA PROIBIDA
+> ## 🚫 FREE TO USE — NOT FOR SALE
 >
-> ✅ Pode usar em projetos pessoais e comerciais  
-> ✅ Pode copiar, adaptar e modificar à vontade  
-> ✅ Pode compartilhar com outros devs  
-> ❌ Não pode vender, revender ou cobrar por este conteúdo  
+> ✅ Use in personal and commercial projects  
+> ✅ Copy, adapt and modify freely  
+> ✅ Share with other devs  
+> ❌ Do not sell, resell or charge for this content  
 >
-> Feito de dev pra dev. Mantém assim. 🇧🇷
+> Made by devs, for devs. Keep it that way. 🇧🇷
 
 ---
 
-## 📌 O que é isso?
+## 📌 What is this?
 
-Estruturas prontas pra você não perder tempo configurando o básico antes de codar.  
-Você recebe a organização. A lógica é sua.
+Ready-to-use project structures so you don't waste time on basic setup before coding.  
+You get the organization. The logic is yours.
 
 ---
 
 ## 🖥️ Backend
 
-Arquivos de dependência prontos por linguagem e nível — básico ao enterprise.
+Dependency files ready for the main languages and frameworks — from basic to enterprise.
 
-| Linguagem | O que tem |
-|-----------|-----------|
-| **Node.js JS** | package.json por nível e especialidade |
-| **Node.js TS** | package.json por nível, Prisma, paths, Jest e especialidades |
+| Language | What's included |
+|----------|----------------|
+| **Node.js JS** | package.json by level and specialty |
+| **Node.js TS** | package.json by level, Prisma, paths, Jest and specialties |
 | **Java** | pom.xml, application.properties |
 | **PHP** | composer.json, .env.example Laravel |
-| **Python** | requirements.txt por nível |
+| **Python** | requirements.txt by level |
 | **C#** | .csproj, appsettings dev/prod/test |
-| **Go** | go.mod por nível |
-| **Ruby** | Gemfile por nível |
+| **Go** | go.mod by level |
+| **Ruby** | Gemfile by level |
 
-Configs inclusas: tsconfig, ESLint, Prettier, Jest, Docker e Docker Compose.
+Configs included: tsconfig, ESLint, Prettier, Jest, Docker and Docker Compose.
 
 ---
 
 ## 🎨 Frontend
 
-Componentes e estruturas prontas para os principais frameworks.
+Components and structures ready for the main frontend frameworks.
 
-| Plataforma | O que tem |
-|------------|-----------|
-| **Angular** | 23 componentes prontos com e sem CSS |
-| **React Web** | 23 componentes prontos com e sem CSS |
-| **React Native** | Components e screens organizados |
-| **Flutter** | Pages e widgets |
-| **HTML & CSS** | Templates e estruturas prontas |
-| **Modelos** | Modelos de layout prontos |
+| Platform | What's included |
+|----------|----------------|
+| **Angular** | 23 ready-to-use components with and without CSS |
+| **React Web** | 23 ready-to-use components with and without CSS |
+| **React Native** | Organized components and screens |
+| **Flutter** | Pages and widgets |
+| **HTML & CSS** | Templates and ready-made structures |
+| **Models** | Layout templates ready to use |
 
 ---
 
-## 🏗️ Estrutura de Pastas
+## 🏗️ Folder Structure
 
-Estruturas de projeto prontas para os principais padrões arquiteturais.
+Project structures ready for the main architectural patterns.
 
-| Padrão | Linguagens |
-|--------|-----------|
+| Pattern | Languages |
+|---------|-----------|
 | **MVC** | Java, JS, PHP, TS |
 | **DDD** | Java, JS, PHP, TS |
 | **Clean Architecture** | Java, JS, PHP, TS |
@@ -87,21 +87,21 @@ Estruturas de projeto prontas para os principais padrões arquiteturais.
 
 ## 🖥️ Scripts
 
-Scripts bash que criam a estrutura completa de um projeto com um único comando.
+Bash scripts that create a full project structure with a single command.
 
-| Script | O que cria |
-|--------|-----------|
-| **React** | Estrutura completa com components, screens, hooks e services |
-| **MVC** | Estrutura MVC em PHP, Java, JS ou TS |
-| **DDD** | Estrutura DDD em PHP, Java, JS, TS ou C# |
+| Script | What it creates |
+|--------|----------------|
+| **React** | Full structure with components, screens, hooks and services |
+| **MVC** | MVC structure in PHP, Java, JS or TS |
+| **DDD** | DDD structure in PHP, Java, JS, TS or C# |
 
 ---
 
-## 🔌 Integrações com Backend
+## 🔌 Backend Integrations
 
-Templates de integração frontend → backend prontos pra usar.
+Frontend → backend integration templates ready to use.
 
-| Backend | Porta padrão |
+| Backend | Default port |
 |---------|-------------|
 | **Node.js JS/TS** | 3000 |
 | **Spring (Java)** | 8080 |
@@ -110,10 +110,10 @@ Templates de integração frontend → backend prontos pra usar.
 
 ---
 
-## ⭐ Se te ajudou
+## ⭐ If this helped you
 
-Deixa uma estrela no repositório. É o único pagamento aceito aqui.
+Drop a star on the repository. That's the only payment accepted here.
 
 ---
 
-**Criado no Brasil 🇧🇷 — Open source. Gratuito. Para sempre.**
+**Made in Brazil 🇧🇷 — Open source. Free. Forever.**
