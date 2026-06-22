@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.seuprojeto'
+version = '1.0-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Hibernate (JPA)
+    implementation 'org.hibernate.orm:hibernate-core:6.4.0.Final'
+    
+    // MySQL
+    implementation 'com.mysql:mysql-connector-j:8.2.0'
+    
+    // Pool de conexões
+    implementation 'com.zaxxer:HikariCP:5.1.0'
+    
+    // Log
+    implementation 'org.slf4j:slf4j-simple:2.0.10'
+}
+
+application {
+    mainClass = 'com.seuprojeto.Main'
+}
