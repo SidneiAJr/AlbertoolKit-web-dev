@@ -1,0 +1,7 @@
+# render-ruby.yaml
+services:
+  - type: web
+    name: meu-projeto
+    runtime: ruby
+    buildCommand: bundle install
+    startCommand: bundle exec rails server
