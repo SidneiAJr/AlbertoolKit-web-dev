@@ -1,0 +1,9 @@
+# railway-basico.toml
+
+[build]
+builder = "nixpacks"
+buildCommand = "npm run build"
+
+[deploy]
+startCommand = "node dist/Backend/server.js"
+restartPolicyType = "on_failure"
