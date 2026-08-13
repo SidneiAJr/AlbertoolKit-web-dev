@@ -1,7 +1,7 @@
 # 📦 Arquivos de Dependência Prontos
 *"Nunca mais comece um projeto do zero."*
 
-> Arquivos de dependência prontos para as principais linguagens e frameworks backend.  
+> Arquivos de dependência prontos para as principais linguagens e frameworks backend e frontend.  
 > Do básico ao enterprise — escolhe o nível e já sai codando.
 
 ---
@@ -12,8 +12,11 @@
 |-------|-----------------------|-------------------|
 | **PACKAGEJSON JS** | Node.js JavaScript | `package.json` |
 | **PACKAGEJSON TS** | Node.js TypeScript | `package.json` |
+| **Package Json React Web** | React Web (Vite/CRA) | `package.json` |
+| **Package Json React Web Expo** | React Native / Expo | `package.json` |
 | **Composer PHP** | PHP / Laravel | `composer.json` |
 | **Pom XML Java** | Java / Spring Boot | `pom.xml` + `application.properties` |
+| **gadle** | Android / Kotlin | `build.gradle` |
 | **Python** | Python | `requirements.txt` |
 | **Ruby** | Ruby | `Gemfile` |
 | **Go** | Go | `go.mod` |
@@ -77,6 +80,20 @@ Arquivos de Dependencia Prontos/
 │   ├── package-websocket.ts.json
 │   └── package-enterprise-prisma.json
 │
+├── Package Json React Web/
+│   ├── package-basico.json
+│   ├── package-intermediario.json
+│   ├── package-avancado.json
+│   ├── package-complexo.json
+│   └── package-enterprise.json
+│
+├── Package Json React Web Expo/
+│   ├── package-basico.json
+│   ├── package-intermediario.json
+│   ├── package-avancado.json
+│   ├── package-complexo.json
+│   └── package-enterprise.json
+│
 ├── Composer PHP/
 │   ├── composer-basico.json
 │   ├── composer-intermediario.json
@@ -91,6 +108,13 @@ Arquivos de Dependencia Prontos/
 │   ├── pom-complexo.xml
 │   ├── pom-enterprise.xml
 │   └── application.properties
+│
+├── gadle/
+│   ├── build.gradle_basico
+│   ├── build.gradle_intermediario
+│   ├── build.gradle_avancado
+│   ├── build.gradle_complexo
+│   └── build.gradle_enterprise
 │
 ├── Python/
 │   ├── requirements-basico.txt
@@ -154,7 +178,7 @@ Arquivos de Dependencia Prontos/
 4. Instale as dependências normalmente
 
 ```bash
-# Node.js
+# Node.js / React / React Native
 npm install
 
 # PHP
@@ -168,6 +192,9 @@ bundle install
 
 # Go
 go mod tidy
+
+# Android
+./gradlew build
 ```
 
 ---
@@ -191,6 +218,34 @@ O TS tem pacotes extras para casos de uso específicos:
 | `package-cli.ts.json` | Ferramentas de linha de comando |
 | `package-enterprise-prisma.json` | Enterprise com Prisma ORM |
 | `package-enterprise-v3.ts.json` | Stack enterprise completa v3 |
+
+---
+
+## ⚛️ Especialidades React Web
+
+Pacotes prontos para aplicações React com Vite ou CRA:
+
+| Arquivo | Caso de uso |
+|---------|-------------|
+| `package-basico.json` | React + Vite + TypeScript |
+| `package-intermediario.json` | Adiciona React Router, Axios, Zustand |
+| `package-avancado.json` | Adiciona React Query, React Hook Form, Zod |
+| `package-complexo.json` | Adiciona i18n, charts, socket, pagamento |
+| `package-enterprise.json` | Stack completa com testes, monitoramento e CI |
+
+---
+
+## 📱 Especialidades React Native / Expo
+
+Pacotes prontos para aplicações mobile com Expo:
+
+| Arquivo | Caso de uso |
+|---------|-------------|
+| `package-basico.json` | Expo + Router + AsyncStorage |
+| `package-intermediario.json` | Adiciona câmera, localização, notificações |
+| `package-avancado.json` | Adiciona Zustand, React Query, React Hook Form |
+| `package-complexo.json` | Adiciona i18n, charts, socket, pagamento (Stripe) |
+| `package-enterprise.json` | Stack completa com biometria, mapas e testes |
 
 ---
 
