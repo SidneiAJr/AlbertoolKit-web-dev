@@ -172,10 +172,25 @@ Arquivos de Dependencia Prontos/
 
 ## 🚀 Como usar
 
-1. Escolha a pasta da linguagem que você vai usar
-2. Pegue o nível que faz sentido pro seu projeto
-3. Renomeie para o nome padrão (`package.json`, `pom.xml`, etc.)
-4. Instale as dependências normalmente
+**1. Escolha o arquivo** correspondente à sua linguagem e nível (`basico`, `intermediario`, etc.)
+
+**2. Copie o conteúdo** do arquivo ou faça o download direto
+
+**3. Cole na raiz do seu projeto** e renomeie conforme necessário:
+
+| Linguagem | Nome do arquivo |
+|-----------|----------------|
+| Node.js / React / Expo | `package.json` |
+| PHP | `composer.json` |
+| Python | `requirements.txt` |
+| Ruby | `Gemfile` |
+| Go | `go.mod` |
+| Android | `build.gradle` |
+| C# / .NET | `app.csproj` |
+
+**4. Troque o nome do projeto** dentro do arquivo (campo `name`, `artifactId`, `module`, etc.)
+
+**5. Instale as dependências:**
 
 ```bash
 # Node.js / React / React Native
@@ -195,7 +210,12 @@ go mod tidy
 
 # Android
 ./gradlew build
+
+# C# / .NET
+dotnet restore
 ```
+
+> Pronto. Sem configuração extra — só codar.
 
 ---
 
