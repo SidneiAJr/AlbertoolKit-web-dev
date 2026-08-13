@@ -1,0 +1,6 @@
+# render-java.yaml (usa Docker)
+services:
+  - type: web
+    name: meu-projeto
+    env: docker
+    dockerfilePath: ./Dockerfile
