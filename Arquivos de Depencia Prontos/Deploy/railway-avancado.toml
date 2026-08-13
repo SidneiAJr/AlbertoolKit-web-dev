@@ -1,0 +1,22 @@
+# railway-avancado.toml
+
+[build]
+builder = "nixpacks"
+buildCommand = "npm run build"
+
+[deploy]
+startCommand = "node dist/Backend/server.js" <--- Trocar essa linha
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+
+[env]
+NODE_ENV = "production"
+PORT = "3000"
+
+[healthcheck]
+path = "/health"
+timeout = 300
+
+[scaling]
+minInstances = 1
+maxInstances = 3
