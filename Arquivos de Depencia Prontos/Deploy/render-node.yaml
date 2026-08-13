@@ -1,0 +1,10 @@
+# render-node.yaml
+services:
+  - type: web
+    name: meu-projeto
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
