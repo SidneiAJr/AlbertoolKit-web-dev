@@ -1,0 +1,7 @@
+# render-go.yaml
+services:
+  - type: web
+    name: meu-projeto
+    runtime: go
+    buildCommand: go build -o app .
+    startCommand: ./app
