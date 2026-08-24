@@ -1,0 +1,84 @@
+{
+  "name": "electron-app-enterprise",
+  "version": "1.0.0",
+  "description": "App Electron enterprise — stack completa",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --inspect",
+    "build": "electron-builder",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --win --mac --linux",
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "lint": "eslint src/**/*.js",
+    "format": "prettier --write src/**/*.js"
+  },
+  "dependencies": {
+    "electron": "^31.0.0",
+    "electron-store": "^8.1.0",
+    "electron-updater": "^6.1.7",
+    "better-sqlite3": "^9.4.3",
+    "chokidar": "^3.5.3",
+    "node-pty": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1",
+    "axios": "^1.6.0",
+    "socket.io-client": "^4.7.2",
+    "keytar": "^7.9.0",
+    "node-notifier": "^10.0.1",
+    "systeminformation": "^5.21.22",
+    "electron-context-menu": "^3.6.1",
+    "electron-log": "^5.0.3",
+    "electron-debug": "^3.2.0",
+    "nedb": "^1.8.0",
+    "uuid": "^9.0.1",
+    "lodash": "^4.17.21",
+    "dayjs": "^1.11.10",
+    "nodemailer": "^6.9.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.9.1",
+    "electron-reload": "^2.0.0-alpha.1",
+    "jest": "^29.7.0",
+    "spectron": "^19.0.0",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.0"
+  },
+  "build": {
+    "appId": "com.seuapp.id",
+    "productName": "MeuApp",
+    "asar": true,
+    "asarUnpack": [
+      "node_modules/better-sqlite3",
+      "node_modules/node-pty"
+    ],
+    "win": {
+      "target": "nsis",
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "mac": {
+      "target": "dmg",
+      "hardenedRuntime": true,
+      "entitlements": "build/entitlements.mac.plist"
+    },
+    "linux": {
+      "target": ["AppImage", "deb", "rpm"]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "publish": {
+      "provider": "github",
+      "releaseType": "release"
+    }
+  }
+}
