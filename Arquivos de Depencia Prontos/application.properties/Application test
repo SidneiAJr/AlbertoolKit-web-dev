@@ -1,0 +1,57 @@
+# ============================================
+# 🧪 TEST PROFILE — Spring Boot
+# ============================================
+
+spring.application.name=
+
+# ── Servidor ─────────────────────────────────
+server.port=
+
+# ── Banco de Dados (H2 in-memory) ────────────
+spring.datasource.url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MODE=MySQL
+spring.datasource.driver-class-name=org.h2.Driver
+spring.datasource.username=
+spring.datasource.password=
+
+# ── JPA / Hibernate ───────────────────────────
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
+spring.jpa.open-in-view=false
+
+# ── H2 Console (útil pra debug de testes) ────
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+# ── Logs ──────────────────────────────────────
+logging.level.root=WARN
+logging.level.org.springframework=WARN
+logging.level.org.hibernate=WARN
+logging.level.com.yourapp=
+
+# ── Swagger ───────────────────────────────────
+springdoc.api-docs.enabled=false
+springdoc.swagger-ui.enabled=false
+
+# ── Actuator ──────────────────────────────────
+management.endpoints.web.exposure.include=health
+management.endpoint.health.show-details=never
+
+# ── Cache ─────────────────────────────────────
+spring.cache.type=none
+
+# ── Mail (fake pra testes) ────────────────────
+spring.mail.host=localhost
+spring.mail.port=
+spring.mail.username=
+spring.mail.password=
+spring.mail.properties.mail.smtp.auth=false
+spring.mail.properties.mail.smtp.starttls.enable=false
+
+# ── JWT ───────────────────────────────────────
+app.jwt.secret=
+app.jwt.expiration=
+
+# ── Async / Scheduler ─────────────────────────
+spring.task.execution.pool.core-size=
+spring.task.execution.pool.max-size=
