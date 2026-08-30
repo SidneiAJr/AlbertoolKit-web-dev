@@ -1,6 +1,8 @@
 🇺🇸 [English](README.md) | 🇧🇷 [Português](https://github.com/SidneiAJr/AlbertoolKit-web-dev/blob/main/Readme_pt-br.md)
 
-<img width="1723" height="855" alt="image" src="https://github.com/user-attachments/assets/9aca609d-2ee4-4342-bce9-183c562d0ecb" />
+<p align="center">
+ <img width="1723" height="855" alt="image" src="https://github.com/user-attachments/assets/9aca609d-2ee4-4342-bce9-183c562d0ecb" />
+</p>
 
 # 🛠️ Albertool-DevKit
 *"Lazy? Call it efficiency."*
