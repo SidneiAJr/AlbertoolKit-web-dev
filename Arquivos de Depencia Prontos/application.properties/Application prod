@@ -1,0 +1,71 @@
+# ============================================
+# 🚀 PROD PROFILE — Spring Boot
+# ============================================
+
+spring.application.name=
+
+# ── Servidor ─────────────────────────────────
+server.port=
+server.error.include-message=never
+server.error.include-stacktrace=never
+server.error.include-exception=false
+
+# ── Banco de Dados ────────────────────────────
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# ── Connection Pool (HikariCP) ────────────────
+spring.datasource.hikari.maximum-pool-size=
+spring.datasource.hikari.minimum-idle=
+spring.datasource.hikari.connection-timeout=
+spring.datasource.hikari.idle-timeout=
+spring.datasource.hikari.max-lifetime=
+
+# ── JPA / Hibernate ───────────────────────────
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.dialect=
+spring.jpa.open-in-view=false
+
+# ── Logs ──────────────────────────────────────
+logging.level.root=WARN
+logging.level.org.springframework=WARN
+logging.level.org.hibernate=WARN
+logging.level.com.yourapp=
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+logging.file.name=
+logging.file.max-size=
+logging.file.max-history=
+
+# ── Swagger / OpenAPI ─────────────────────────
+springdoc.api-docs.enabled=false
+springdoc.swagger-ui.enabled=false
+
+# ── Actuator ──────────────────────────────────
+management.endpoints.web.exposure.include=health,info,metrics
+management.endpoint.health.show-details=never
+management.endpoints.web.base-path=/actuator
+
+# ── Cache ─────────────────────────────────────
+spring.cache.type=
+spring.data.redis.host=
+spring.data.redis.port=
+spring.data.redis.password=
+
+# ── Segurança ─────────────────────────────────
+server.ssl.enabled=
+security.require-ssl=
+
+# ── JWT ───────────────────────────────────────
+app.jwt.secret=
+app.jwt.expiration=
+
+# ── Mail ──────────────────────────────────────
+spring.mail.host=
+spring.mail.port=
+spring.mail.username=
+spring.mail.password=
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
