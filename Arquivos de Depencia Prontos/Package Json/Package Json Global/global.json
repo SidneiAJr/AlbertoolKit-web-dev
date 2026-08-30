@@ -1,0 +1,24 @@
+// Comandos para rodar
+
+- npm run install:all   → instala dependências do backend, frontend e mobile
+- npm run dev           → sobe backend + frontend web
+- npm run dev:mobile    → sobe backend + expo mobile
+- npm run dev:full      → sobe os 3 juntos (backend + web + mobile)
+- npm run build         → faz build do frontend e backend
+- npm run start         → sobe só o backend em produção
+
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../mobile && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "dev:mobile": "concurrently \"cd backend && npm run dev\" \"cd mobile && npx expo start\"",
+    "dev:full": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\" \"cd mobile && npx expo start\"",
+    "build": "cd frontend && npm run build && cd ../backend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
