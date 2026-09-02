@@ -84,19 +84,6 @@ You get the organization. The logic is yours.
 
 Dependency files ready for the main languages and frameworks — from basic to enterprise.
 
-| Language | What's included |
-|----------|----------------|
-| **Node.js JS** | package.json by level and specialty |
-| **Node.js TS** | package.json by level, Prisma, paths, Jest and specialties |
-| **Java** | pom.xml, application.properties |
-| **PHP** | composer.json, .env.example Laravel |
-| **Python** | requirements.txt by level |
-| **C#** | .csproj, appsettings dev/prod/test |
-| **Go** | go.mod by level |
-| **Ruby** | Gemfile by level |
-
-Configs included: tsconfig, ESLint, Prettier, Jest, Docker and Docker Compose.
-
 ---
 
 ## 🎨 Frontend
