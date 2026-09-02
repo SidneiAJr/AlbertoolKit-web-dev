@@ -82,8 +82,22 @@ You get the organization. The logic is yours.
 
 ## 🖥️ Backend
 
-Dependency files ready for the main languages and frameworks — from basic to enterprise.
+> ### 📄 Installation Markdowns
+>
+> The `package.json` files have been replaced by **installation markdowns** with ready-to-use terminal commands.  
+> Just pick your language, choose the level and run the command directly in your terminal.
+>
+> **Available languages:**
+>
+> - ✅ Python
+> - ✅ JavaScript
+> - ✅ TypeScript
+> - ✅ Electron (HTML, React, Angular)
+> - ✅ React Native / Expo
+>
+> **Levels available:** `simples` → `básico` → `intermediário` → `avançado` → `complexo` → `enterprise`
 
+Dependency files ready for the main languages and frameworks — from basic to enterprise.
 ---
 
 ## 🎨 Frontend
