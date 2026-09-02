@@ -4,14 +4,44 @@
  <img width="1723" height="855" alt="image" src="https://github.com/user-attachments/assets/9aca609d-2ee4-4342-bce9-183c562d0ecb" />
 </p>
 
-> ## ⚠️ ATENÇÃO — VERSÕES
+> ## ⚠️ ATENÇÃO — VERSÕES E SEGURANÇA
 >
-> Os templates deste repositório são atualizados periodicamente.
-> Antes de usar, verifique se as versões das dependências ainda são compatíveis com seu projeto.
+> Os templates deste repositório são atualizados periodicamente, mas podem estar desatualizados no momento do uso.
 >
-> ✅ Sempre confira o `package.json`, `composer.json`, `pom.xml` ou equivalente antes de copiar  
-> ✅ Use `npm outdated`, `composer outdated` ou equivalente para checar atualizações  
-> ⚠️ Dependências mudam — o repositório pode não refletir a versão mais recente no momento do uso
+> ### Antes de usar qualquer arquivo:
+>
+> ✅ Confira o `package.json`, `composer.json`, `pom.xml` ou equivalente antes de copiar  
+> ✅ Verifique se as versões são compatíveis com seu projeto  
+> ⚠️ Dependências mudam — o repositório pode não refletir a versão mais recente  
+> ⚠️ Pacotes desatualizados podem conter vulnerabilidades de segurança  
+>
+> ### Após instalar, sempre rode:
+>
+> ```bash
+> # Verificar dependências desatualizadas
+> npm outdated
+>
+> # Verificar vulnerabilidades de segurança
+> npm audit
+>
+> # Atualizar tudo de uma vez
+> npx npm-check-updates -u && npm install
+>
+> # Corrigir vulnerabilidades automaticamente
+> npm audit fix
+> ```
+>
+> ### Para outras linguagens:
+>
+> | Linguagem | Verificar versões | Verificar segurança |
+> |-----------|------------------|---------------------|
+> | PHP | `composer outdated` | `composer audit` |
+> | Python | `pip list --outdated` | `pip-audit` |
+> | Ruby | `bundle outdated` | `bundle audit` |
+> | Go | `go list -u -m all` | `govulncheck ./...` |
+> | Java | Via IDE ou Maven Versions Plugin | OWASP Dependency Check |
+>
+> ℹ️ Este repositório fornece templates como ponto de partida. A responsabilidade pela verificação e atualização das dependências é do desenvolvedor que utilizar o conteúdo.
 
 # 🛠️ Albertool-DevKit
 *"Lazy? Call it efficiency."*

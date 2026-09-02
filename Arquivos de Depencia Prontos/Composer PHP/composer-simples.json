@@ -1,8 +1,0 @@
-{
-    "name": "seuprojeto/php-simples",
-    "description": "Projeto PHP simples",
-    "type": "project",
-    "require": {
-        "php": ">=7.4"
-    }
-}
