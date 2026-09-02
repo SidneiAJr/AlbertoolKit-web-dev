@@ -1,3 +1,0 @@
-# Python Simples
-# Nenhuma dependência externa
-# Só o Python padrão da linguagem
