@@ -4,6 +4,15 @@
  <img width="1723" height="855" alt="image" src="https://github.com/user-attachments/assets/9aca609d-2ee4-4342-bce9-183c562d0ecb" />
 </p>
 
+> ## ⚠️ ATENÇÃO — VERSÕES
+>
+> Os templates deste repositório são atualizados periodicamente.
+> Antes de usar, verifique se as versões das dependências ainda são compatíveis com seu projeto.
+>
+> ✅ Sempre confira o `package.json`, `composer.json`, `pom.xml` ou equivalente antes de copiar  
+> ✅ Use `npm outdated`, `composer outdated` ou equivalente para checar atualizações  
+> ⚠️ Dependências mudam — o repositório pode não refletir a versão mais recente no momento do uso
+
 # 🛠️ Albertool-DevKit
 *"Lazy? Call it efficiency."*
 
